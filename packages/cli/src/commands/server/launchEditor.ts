@@ -11,7 +11,6 @@ import chalk from 'chalk';
 import fs from 'fs';
 import path from 'path';
 import {execSync, spawn, ChildProcess} from 'child_process';
-// @ts-ignore @types not installed
 import shellQuote from 'shell-quote';
 import {logger} from '@react-native-community/cli-tools';
 

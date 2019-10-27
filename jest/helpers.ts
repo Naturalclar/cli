@@ -2,12 +2,9 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import {createDirectory} from 'jest-util';
-// @ts-ignore jsfile
 import rimraf from 'rimraf';
-// @ts-ignore jsfile
 import execa from 'execa';
 import chalk from 'chalk';
-// @ts-ignore jsfile
 import {Writable} from 'readable-stream';
 
 const CLI_PATH = path.resolve(__dirname, '../packages/cli/build/bin.js');

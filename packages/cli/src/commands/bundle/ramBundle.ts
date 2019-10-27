@@ -5,7 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  *
  */
-// @ts-ignore - no typed definition for the package
 import outputUnbundle from 'metro/src/shared/output/RamBundle';
 import {withOutput as bundleWithOutput} from './bundle';
 import bundleCommandLineArgs, {CommandLineArgs} from './bundleCommandLineArgs';

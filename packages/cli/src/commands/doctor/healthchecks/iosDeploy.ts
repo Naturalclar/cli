@@ -1,6 +1,5 @@
 import execa from 'execa';
 import chalk from 'chalk';
-// @ts-ignore untyped
 import inquirer from 'inquirer';
 import {isSoftwareNotInstalled, PACKAGE_MANAGERS} from '../checkInstallation';
 import {packageManager} from './packageManagers';

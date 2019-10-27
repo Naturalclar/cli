@@ -43,13 +43,10 @@ function create() {
     const echo = opts.echo;
     const masked = 'echo' in opts;
 
-    /*eslint-disable prettier/prettier*/
     const fd =
       process.platform === 'win32'
-        // @ts-ignore
         ? process.stdin.fd
         : fs.openSync('/dev/tty', 'rs');
-    /*eslint-enable prettier/prettier*/
 
     const wasRaw = process.stdin.isRaw;
     if (!wasRaw && process.stdin.setRawMode) {

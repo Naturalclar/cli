@@ -6,9 +6,7 @@
  *
  */
 
-// @ts-ignore - no typed definition for the package
 import Server from 'metro/src/Server';
-// @ts-ignore - no typed definition for the package
 import outputBundle from 'metro/src/shared/output/bundle';
 import path from 'path';
 import chalk from 'chalk';

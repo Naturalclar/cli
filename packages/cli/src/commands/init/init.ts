@@ -4,7 +4,6 @@ import fs from 'fs-extra';
 import minimist from 'minimist';
 import ora from 'ora';
 import semver from 'semver';
-// @ts-ignore untyped
 import inquirer from 'inquirer';
 import mkdirp from 'mkdirp';
 import {validateProjectName} from './validate';

@@ -1,4 +1,3 @@
-// @ts-ignore
 import envinfo from 'envinfo';
 import {EnvironmentInfo} from '../commands/doctor/types';
 

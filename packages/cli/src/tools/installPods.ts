@@ -2,11 +2,9 @@ import fs from 'fs';
 import execa from 'execa';
 import chalk from 'chalk';
 import ora from 'ora';
-// @ts-ignore untyped
 import inquirer from 'inquirer';
 import {logger} from '@react-native-community/cli-tools';
 import {NoopLoader} from './loader';
-// @ts-ignore untyped
 import sudo from 'sudo-prompt';
 import {brewInstall} from './brewInstall';
 

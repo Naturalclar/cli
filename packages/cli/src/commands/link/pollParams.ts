@@ -5,7 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// @ts-ignore untyped
 import {prompt, QuestionCollection, Answers} from 'inquirer';
 
 export default (questions: QuestionCollection) =>

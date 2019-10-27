@@ -5,9 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// @ts-ignore untyped metro
 import Metro from 'metro';
-// @ts-ignore untyped metro
 import {Terminal} from 'metro-core';
 import morgan from 'morgan';
 import path from 'path';
